@@ -2,7 +2,7 @@ import React from 'react'
 import ProjectItem from './ProjectItem'
 import moneyTrackingApp from '../assets/moneyTrackingApp.png'
 import glowingButton from '../assets/glowingButton.gif'
-import netflixImg from '../assets/netflix.jpg'
+import todoList from '../assets/todoList.gif'
 import twitchImg from '../assets/twitch.png'
 
 
@@ -16,7 +16,7 @@ const Projects = () => {
         <div className='grid sm:grid-cols-2 gap-12'>
             <ProjectItem img={glowingButton} title='Glowing Button' link='https://github.com/geekqq/buttondemo' />
             <ProjectItem img={moneyTrackingApp} title='Money Tracking App' link='https://iscuu.com/moneytracking.html' />
-            <ProjectItem img={netflixImg} title='Neflix App' link='https://github.com/geekqq/buttondemo' />
+            <ProjectItem img={todoList} title='Todo List App' link='https://github.com/geekqq/todolist' />
             <ProjectItem img={twitchImg} title='Twitch App' link='https://github.com/geekqq/buttondemo' />
         </div>
     </div>
