@@ -7,14 +7,14 @@ const data = [
         title: 'Software Developer Engineer',
         duration: '3 years',
         details:
-        'Working as a software develop engineer in ArtForGeeks, Inc. Teck skills including Java, JavaScript, Python, HTML, CSS, AWS, EC2, 3S, Docker, Kuburnetes, MySQL, PostgreSQL'
+        'I bring three years of proven success as a Software Developer Engineer at ArtGeekTech, Inc. With a versatile skill set, I am adept in Java, JavaScript, Python, HTML, CSS, as well as AWS (Amazon Web Services) technologies such as EC2 and S3. My expertise extends to containerization with Docker and Kubernetes, and I am well-versed in working with essential databases like MySQL and PostgreSQL. I am passionate about crafting innovative solutions and leveraging cutting-edge technologies to drive impactful results.'
     },
     {
         year: 2017,
         title: 'IT Support Specialist',
         duration: '3 years',
         details:
-        'Setup the working environment for new employees and manage and troubeshoot the IT issues for all employees. Teck skills inluding Linux, Windows, MacOS, iOS, Phone and PCs, printers'
+        'During my tenure as an IT Support Specialist, I played a vital role in creating a seamless working environment for new employees and successfully managed and resolved various IT issues for the entire organization. My technical expertise encompasses Linux, Windows, macOS, iOS, as well as phone and PC systems. Additionally, I possess comprehensive knowledge in troubleshooting and maintaining printers for optimal functionality.'
     },
     // {
     //     year: 2015,
