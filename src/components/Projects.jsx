@@ -3,7 +3,7 @@ import ProjectItem from './ProjectItem'
 import moneyTrackingApp from '../assets/moneyTrackingApp.png'
 import glowingButton from '../assets/glowingButton.gif'
 import todoList from '../assets/todoList.gif'
-import twitchImg from '../assets/twitch.png'
+import springBoot from '../assets/springBoot.png'
 
 
 const Projects = () => {
@@ -14,10 +14,10 @@ const Projects = () => {
             Projects and little gadgets I made
         </p>
         <div className='grid sm:grid-cols-2 gap-12'>
-            <ProjectItem img={glowingButton} title='Glowing Button' link='https://github.com/geekqq/buttondemo' />
-            <ProjectItem img={moneyTrackingApp} title='Money Tracking App' link='https://iscuu.com/moneytracking.html' />
-            <ProjectItem img={todoList} title='Todo List App' link='https://github.com/geekqq/todolist' />
-            <ProjectItem img={twitchImg} title='Twitch App' link='https://github.com/geekqq/buttondemo' />
+            <ProjectItem img={glowingButton} title='Glowing Button' techStack='React Tailwind CSS' link='https://github.com/geekqq/buttondemo' />
+            <ProjectItem img={moneyTrackingApp} title='Money Tracking App' techStack='AWS Amplifier Lambda' link='https://iscuu.com/moneytracking.html' />
+            <ProjectItem img={todoList} title='Todo List App' techStack='React NodeJS' link='https://github.com/geekqq/todolist' />
+            <ProjectItem img={springBoot} title='Spring Boot App' techStack='Spring Boot Docker Eureka' link='https://github.com/geekqq/nvsoftware' />
         </div>
     </div>
   )
