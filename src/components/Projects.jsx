@@ -5,6 +5,7 @@ import glowingButton from '../assets/glowingButton.gif'
 import todoList from '../assets/todoList.gif'
 import springBoot from '../assets/springBoot.png'
 import portfolio from '../assets/portfolio2.png'
+import minicommerce from '../assets/miniecommerce.png'
 
 const Projects = () => {
   return (
@@ -19,6 +20,7 @@ const Projects = () => {
             <ProjectItem img={todoList} title='Todo List App' techStack='React NodeJS' link='https://github.com/geekqq/todolist' />
             <ProjectItem img={springBoot} title='Spring Boot App' techStack='Spring Boot Docker Eureka' link='https://github.com/geekqq/nvsoftware' />
             <ProjectItem img={portfolio} title='React JS App' techStack='React Tailwind CSS' link='https://github.com/geekqq/portfolio-react' />
+            <ProjectItem img={minicommerce} title='React JS ecommerce demo' techStack='React Tailwind Full Stack ' link='https://github.com/geekqq/mini-ecommerce' />
         </div>
     </div>
   )
