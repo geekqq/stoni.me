@@ -6,6 +6,10 @@ import todoList from '../assets/todoList.gif'
 import springBoot from '../assets/springBoot.png'
 import portfolio from '../assets/portfolio2.png'
 import minicommerce from '../assets/miniecommerce.png'
+import password from '../assets/password.png'
+import calculator from '../assets/calculator.png'
+import sliding_images from '../assets/sliding_images.gif'
+
 
 const Projects = () => {
   return (
@@ -16,8 +20,10 @@ const Projects = () => {
         </p>
         <div className='grid sm:grid-cols-2 gap-12'>
             <ProjectItem img={glowingButton} title='Glowing Button' techStack='React Tailwind CSS' link='https://github.com/geekqq/buttondemo' />
+            <ProjectItem img={calculator} title='A Simple Calculator' techStack='JavaScript HTML CSS' link='https://calculator.ski.sh' />
             <ProjectItem img={getweather} title='Get Weather App' techStack='JavaScript HTML CSS' link='https://weather.ski.sh' />
-            <ProjectItem img={todoList} title='Todo List App' techStack='React NodeJS' link='https://github.com/geekqq/todolist' />
+            <ProjectItem img={password} title='Password Generator' techStack='JavaScript HTML CSS' link='https://password.ski.sh' />
+            <ProjectItem img={sliding_images} title='Sliding Images' techStack='JavaScript HTML CSS' link='https://image.ski.sh' />
             <ProjectItem img={springBoot} title='Spring Boot App' techStack='Spring Boot Docker Eureka' link='https://github.com/geekqq/nvsoftware' />
             <ProjectItem img={portfolio} title='React JS App' techStack='React Tailwind CSS' link='https://github.com/geekqq/portfolio-react' />
             <ProjectItem img={minicommerce} title='React JS ecommerce demo' techStack='React Tailwind Full Stack ' link='https://github.com/geekqq/mini-ecommerce' />
