@@ -25,7 +25,7 @@ const Projects = () => {
             <ProjectItem img={password} title='Password Generator' techStack='JavaScript HTML CSS' link='https://password.stonelab.me' />
             <ProjectItem img={sliding_images} title='Sliding Images' techStack='JavaScript HTML CSS' link='https://slidingimage.stonelab.me' />
             <ProjectItem img={springBoot} title='Spring Boot App' techStack='Spring Boot Docker Eureka' link='https://github.com/geekqq/nvsoftware' />
-            <ProjectItem img={portfolio} title='React JS App' techStack='React Tailwind CSS' link='https://github.com/geekqq/portfolio-react' />
+            <ProjectItem img={portfolio} title='React JS App' techStack='React Tailwind CSS' link='stonehoo.vercel.app' />
             <ProjectItem img={minicommerce} title='React JS ecommerce demo' techStack='React Tailwind Full Stack ' link='https://github.com/geekqq/mini-ecommerce' />
         </div>
     </div>
